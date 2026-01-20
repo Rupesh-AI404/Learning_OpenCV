@@ -6,7 +6,7 @@ if image is None:
     print("Error loading image")
 else:
     print("Image loaded successfully")
-    (h, w) = image.shape[:2]  # :2 takes the first two elements of the tuple
+    (w, h) = image.shape[:2]  # :2 takes the first two elements of the tuple
 
     center = (w // 2, h // 2)
     M = cv2.getRotationMatrix2D(center, 45, 1)
