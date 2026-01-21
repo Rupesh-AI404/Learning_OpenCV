@@ -7,7 +7,7 @@ if image is None:
 else:
     flipped_vertical = cv2.flip(image, 0)
     flipped_horizontal = cv2.flip(image, 1)
-    flipped_both = cv2.flip(image, -1)
+    flipped_both = cv2.flip(image, 1)
 
     cv2.imshow("Original Image", image)
     cv2.imshow("Flipped Vertical", flipped_vertical)
