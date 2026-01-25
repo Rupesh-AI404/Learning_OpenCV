@@ -13,7 +13,7 @@ while True:
 
     cv2.imshow("Webcam Feed", frame)
 
-    if cv2.waitKey(1) & 0xFF == ord('q'):    #113 == 113   TRUE
+    if cv2.waitKey(1) & 0xFF == ord('q'):    #113 == 113 TRUE
         print("Exiting...")
         break
 
