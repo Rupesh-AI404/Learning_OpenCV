@@ -8,7 +8,7 @@ while True:
     ret, frame = cap.read() #ret = True or False   frame = image
 
     if not ret:
-        print("Failed to grab frame")
+        print("Failed to grab frame.")
         break
 
     cv2.imshow("Webcam Feed", frame)
@@ -16,6 +16,7 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord('q'):    #113 == 113 TRUE
         print("Exiting...")
         break
+
 
 cap.release()
 cv2.destroyAllWindows()
