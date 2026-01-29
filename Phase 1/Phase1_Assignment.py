@@ -13,6 +13,7 @@ if image is not None:
 
     action_order = input("Do you want to save or show first? (save/show): ").strip().lower()
 
+
     if action_order == 'save':
         # Save first
         save_location = input("Enter location to save grayscale image: ")
@@ -23,11 +24,13 @@ if image is not None:
         cv2.imshow("Grayscale Image", grayscale)
         cv2.waitKey(0)
         cv2.destroyAllWindows()
+
     else:
         # Show first
         cv2.imshow("Grayscale Image", grayscale)
         cv2.waitKey(0)
         cv2.destroyAllWindows()
+        print("Image shown successfully.")
 
         # Save second
         save_location = input("Enter location to save grayscale image: ")
