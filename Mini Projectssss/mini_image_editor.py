@@ -82,7 +82,8 @@ while True:
     else:
         print("Invalid choice")
 
-    show_image(image)
+    print("--- IMAGE DISPLAY ---")
 
+    show_image(image)
 cv2.destroyAllWindows()
 
