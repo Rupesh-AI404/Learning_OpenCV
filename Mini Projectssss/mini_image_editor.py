@@ -85,5 +85,6 @@ while True:
     print("--- IMAGE DISPLAY ---")
 
     show_image(image)
+
 cv2.destroyAllWindows()
 
