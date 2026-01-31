@@ -17,6 +17,5 @@ while True:
         print("Exiting...")
         break
 
-
 cap.release()
 cv2.destroyAllWindows()
