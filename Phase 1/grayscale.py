@@ -8,5 +8,6 @@ if image is not None:
     cv2.waitKey(0)
     cv2.destroyAllWindows()
     print("Image converted successfully")
+
 else:
     print("Error loading image")
