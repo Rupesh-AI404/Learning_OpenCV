@@ -7,7 +7,7 @@ if image is None:
 else:
     print("Image loaded successfully")
 
-    pt1 = (50, 100)  
+    pt1 = (150, 100)
     pt2 = (500, 500)
     color = (255, 0, 0)
     thickness = 5
