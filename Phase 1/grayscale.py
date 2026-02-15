@@ -10,4 +10,4 @@ if image is not None:
     print("Image converted successfully")
 
 else:
-    print("Error loading image")
+    print("Error loading image.")
