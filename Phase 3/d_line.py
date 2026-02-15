@@ -8,7 +8,7 @@ else:
     print("Image loaded successfully")
 
     pt1 = (50, 100)  
-    pt2 = (400, 400)
+    pt2 = (500, 500)
     color = (255, 0, 0)
     thickness = 5
 
