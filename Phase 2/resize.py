@@ -7,7 +7,7 @@ if image is None:
 else:
     print("Image loaded successfully")
 
-    resized_image = cv2.resize(image, (600, 500))
+    resized_image = cv2.resize(image, (600, 600))
 
     cv2.imshow("Original Image", image)
     cv2.imshow("Resized Image", resized_image)
