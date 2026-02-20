@@ -9,4 +9,4 @@ if image is not None:
     else:
         print("Error saving image")
 else:
-    print("Error loading image")
+    print("Error loading image...")
