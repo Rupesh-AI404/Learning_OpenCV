@@ -82,7 +82,7 @@ while True:
     else:
         print("Invalid choice")
 
-    print("--- IMAGE DISPLAY ---")
+    print("-- IMAGE DISPLAY --")
 
     show_image(image)
 
