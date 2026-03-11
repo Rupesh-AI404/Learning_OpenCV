@@ -48,7 +48,7 @@ colors = {
     'black': (0, 0, 0)  # for eraser kind of effect
 }
 current_color = 'blue'
-brush_thickness = 8
+brush_thickness = 10
 
 # To smooth drawing → store last few positions
 prev_x, prev_y = 0, 0
