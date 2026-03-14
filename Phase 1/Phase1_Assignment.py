@@ -37,4 +37,4 @@ if image is not None:
         cv2.imwrite(save_location, grayscale)
         print("Grayscale image saved successfully.")
 else:
-    print("Error loading image")
+    print("Error loading image!!!")
