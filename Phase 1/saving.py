@@ -7,6 +7,6 @@ if image is not None:
     if success:
         print("Image saved successfully")
     else:
-        print("Error saving image")
+        print("Error saving image.")
 else:
     print("Error loading image...")
