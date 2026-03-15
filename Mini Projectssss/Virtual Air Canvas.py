@@ -81,13 +81,14 @@ while cap.isOpened():
         for hand_landmarks in detection_result.hand_landmarks:
             # Get index finger tip (landmark 8) and thumb tip (landmark 4)
             index_tip = hand_landmarks[8]
-            thumb_tip = hand_landmarks[4]
+            thumb_tip = hand_landmarks[5]
 
             # Convert to pixel coordinates
             ix = int(index_tip.x * w)
             iy = int(index_tip.y * h)
             tx = int(thumb_tip.x * w)
             ty = int(thumb_tip.y * h)
+
 
             # Calculate distance between thumb and index
             distance = np.sqrt((ix - tx) ** 2 + (iy - ty) ** 2)
