@@ -73,7 +73,7 @@ while True:
     elif choice == 5:
         save_path = input("Enter save path (with filename): ")
         cv2.imwrite(save_path, image)
-        print("Image saved successfully!")
+        print("Image saved successfully")
 
     elif choice == 6:
         print("Exiting editor...")
