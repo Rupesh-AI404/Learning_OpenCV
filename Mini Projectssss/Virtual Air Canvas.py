@@ -80,7 +80,7 @@ while cap.isOpened():
     if detection_result.hand_landmarks:
         for hand_landmarks in detection_result.hand_landmarks:
             # Get index finger tip (landmark 8) and thumb tip (landmark 4)
-            index_tip = hand_landmarks[10]
+            index_tip = hand_landmarks[8]
             thumb_tip = hand_landmarks[5]
 
             # Convert to pixel coordinates
