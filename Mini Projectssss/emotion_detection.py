@@ -8,7 +8,7 @@ from deepface import DeepFace
 # Real-time webcam emotion detection
 # ────────────────────────────────────────────────
 
-cap = cv2.VideoCapture(0)  # 0 = default webcam
+cap = cv2.VideoCapture(0)  #0 = default webcam
 
 # Optional: use faster backend detector (YuNet / SSD / YOLO) if you want
 # But DeepFace's default (OpenCV or retinaface) works well
