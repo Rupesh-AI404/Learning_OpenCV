@@ -60,7 +60,7 @@ class AdvancedGenderEstimator:
     def extract_face_features(self, face_roi):
         """Extract meaningful features from face region"""
         # Resize to standard size
-        face_resized = cv2.resize(face_roi, (60, 50))
+        face_resized = cv2.resize(face_roi, (60, 60))
 
         # Convert to grayscale
         gray = cv2.cvtColor(face_resized, cv2.COLOR_BGR2GRAY)
